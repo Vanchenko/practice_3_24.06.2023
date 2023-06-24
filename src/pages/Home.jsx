@@ -6,7 +6,8 @@ export const Home = () => {
   return (
     <Section>
       <Container>
-        {isLoading && <Loader/>}
+        {isLoading && <Loader />}
+        <CountryList countries={countries} />
       </Container>
     </Section>
   );
